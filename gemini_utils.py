@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-# MODIFIED: Use a single model for both tasks
-model = genai.GenerativeModel("gemini-1.5-flash")
+# FIXED: Use the correct model name for google.generativeai
+model = genai.GenerativeModel("gemini-1.5-flash-001")
 
 
 def summarize_text(pdf_context, summary_type):
