@@ -60,31 +60,33 @@ It uses **vector embeddings stored in ChromaDB** to perform semantic search, mea
 
 ### 1. Clone the repository:
 
-```sh
+````sh
 git clone https://github.com/yourusername/DocuDroid.git
 cd DocuDroid
 
-2. Create and activate a virtual environment:
-sh
-Copy code
+
+### 2. Create and activate a virtual environment:
+```sh
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install dependencies:
-sh
-Copy code
+
+### 3. Install dependencies:
+```sh
+
 pip install --upgrade langchain langchain-community langchain-openai chromadb
 pip install --upgrade pypdf pandas streamlit python-dotenv tiktoken
-4. Set up environment variables:
+
+### 4. Set up environment variables:
 Create a .env file in the root directory:
 
 env
-Copy code
 OPENAI_API_KEY="YOUR_OPENAI_API_KEY_HERE"
+
 5. Run the Streamlit app:
-sh
-Copy code
+```sh
 streamlit run app.py
-```
+````
 
 Acknowledgements
 
