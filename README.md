@@ -95,10 +95,18 @@ OPENAI_API_KEY="YOUR_OPENAI_API_KEY_HERE"
 streamlit run app.py
 ```
 
-Acknowledgements
+## Contributing
 
-Thanks to Streamlit for easy Python web apps
+Contributions are welcome! Please follow these steps:
 
-Thanks to OpenAI for LLM APIs
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Submit a pull request with a detailed description of your changes.
 
-Thanks to ChromaDB for semantic search
+---
+
+### Acknowledgements
+
+- Thanks to **Streamlit** for easy Python web apps
+- Thanks to **OpenAI** for LLM APIs
+- Thanks to **ChromaDB** for semantic search
