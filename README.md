@@ -12,7 +12,7 @@ DocuDroid is an intelligent web application built with Python, LangChain, and Ch
 
 ---
 
-## 🚀 About The Project
+## About The Project
 
 DocuDroid solves the problem of quickly understanding complex PDF documents. Users can upload PDFs and the system will:
 
@@ -24,13 +24,13 @@ It uses **vector embeddings stored in ChromaDB** to perform semantic search, mea
 
 ---
 
-## 🔑 Key Features
+## Key Features
 
 - **RAG-based Summarization**:
 
-  - 🎯 **Concise Summary**: Quick overview
-  - 📚 **Section-wise Summary**: Detailed breakdown
-  - • **Key Bullet Points**: Critical insights
+  - **Concise Summary**: Quick overview
+  - **Section-wise Summary**: Detailed breakdown
+  - **Key Bullet Points**: Critical insights
 
 - **Semantic Q&A**: Ask questions and get context-aware answers
 
@@ -42,7 +42,7 @@ It uses **vector embeddings stored in ChromaDB** to perform semantic search, mea
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: Streamlit
 - **Backend & AI**:
