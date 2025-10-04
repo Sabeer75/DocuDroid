@@ -4,7 +4,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)  
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-red?logo=streamlit)  
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT-4-blue?logo=openai)  
+![OpenAI GPT-4](https://img.shields.io/badge/OpenAI-GPT--4-blue?logo=openai)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-VectorDB-green)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
