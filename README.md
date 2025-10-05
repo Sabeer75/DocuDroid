@@ -12,6 +12,16 @@ DocuDroid is an intelligent web application built with Python, LangChain, and Ch
 
 ---
 
+### Images
+
+<img width="900" alt="DocuDroid Screenshot 1" src="./assets/1.png">
+<br>
+
+<img width="900" alt="DocuDroid Screenshot 2" src="./assets/2.png">
+<br>
+
+## <img width="900" alt="DocuDroid Screenshot 3" src="./assets/3.png">
+
 ## About The Project
 
 DocuDroid solves the problem of quickly understanding complex PDF documents. Users can upload PDFs and the system will:
@@ -70,7 +80,7 @@ cd DocuDroid
 ```sh
 
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ### 3. Install dependencies:

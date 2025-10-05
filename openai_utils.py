@@ -21,7 +21,7 @@ def summarize_text(pdf_context, summary_type):
 
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o-mini",
             messages=[
                 {
                     "role": "system",
@@ -29,8 +29,8 @@ def summarize_text(pdf_context, summary_type):
                 },
                 {"role": "user", "content": prompt},
             ],
-            max_tokens=500,  # Limit tokens to reduce cost
-            temperature=0.3,  # Lower temperature for more consistent results
+            max_tokens=500,
+            temperature=0.3,
         )
         return response.choices[0].message.content
     except Exception as e:
@@ -61,7 +61,7 @@ def ask_question(pdf_context, user_question):
                 },
                 {"role": "user", "content": prompt},
             ],
-            max_tokens=300,  # Even shorter for Q&A
+            max_tokens=300,
             temperature=0.3,
         )
         return response.choices[0].message.content
