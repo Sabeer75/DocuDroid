@@ -66,7 +66,7 @@ It uses **vector embeddings stored in ChromaDB** to perform semantic search, mea
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### 1. Clone the repository:
 
