@@ -13,7 +13,7 @@ except FileNotFoundError:
 st.markdown(
     """
 <div class="title-card">
-    <div class="title">Docudroid</div>
+    <div class="title">DocuDroid</div>
     <div class="subtitle">Ask, Analyze, and Understand Your Documents with Ease</div>
 </div>
 """,
