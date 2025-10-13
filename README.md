@@ -35,6 +35,20 @@ When the user asks a question, the query is also converted into an embedding. Ch
 
 ---
 
+## Tech Stack
+
+- **Frontend**: Streamlit
+- **Backend & AI**:
+  - LangChain for LLM orchestration
+  - OpenAI GPT models for semantic understanding
+  - ChromaDB for vector storage and semantic search
+  - PyPDF for PDF text extraction
+- **Data Processing**: pandas
+- **Language**: Python
+- **Environment Management**: python-dotenv
+
+---
+
 ## Key Features
 
 - **RAG-based Summarization**:
@@ -50,20 +64,6 @@ When the user asks a question, the query is also converted into an embedding. Ch
 - **Modern UI**: Streamlit-powered, responsive, and user-friendly
 
 - **Privacy-focused**: Documents are processed locally in-memory
-
----
-
-## Tech Stack
-
-- **Frontend**: Streamlit
-- **Backend & AI**:
-  - LangChain for LLM orchestration
-  - OpenAI GPT models for semantic understanding
-  - ChromaDB for vector storage and semantic search
-  - PyPDF for PDF text extraction
-- **Data Processing**: pandas
-- **Language**: Python
-- **Environment Management**: python-dotenv
 
 ---
 
