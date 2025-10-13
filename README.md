@@ -8,7 +8,7 @@
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-VectorDB-green)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-DocuDroid is an intelligent web application built with Python, LangChain, and ChromaDB for **RAG (Retrieval-Augmented Generation) based PDF analysis**. It can summarize PDFs, extract key points, and answer detailed, context-aware questions using semantic search and LLMs.
+I developed DOCUDROID, a **Retrieval-Augmented Generation (RAG) based PDF analyzer** that can read and understand large PDF documents even 50+ pages and answer questions from them in real time. The main goal was to make document analysis fast, accurate, and affordable using AI.
 
 ---
 
@@ -27,10 +27,11 @@ DocuDroid is an intelligent web application built with Python, LangChain, and Ch
 DocuDroid solves the problem of quickly understanding complex PDF documents. Users can upload PDFs and the system will:
 
 - Generate multiple types of summaries
-- Extract key bullet points
 - Answer questions in a conversational manner
 
-It uses **vector embeddings stored in ChromaDB** to perform semantic search, meaning queries are understood by **meaning, not just keywords**. The interface is fully responsive via Streamlit, and all documents are processed securely in-memory.
+Each chunk is then converted into a vector embedding which is a numerical representation of its meaning and stored in ChromaDB, which allows semantic search. Semantic search means the system finds content by meaning, not just keywords.
+
+When the user asks a question, the query is also converted into an embedding. ChromaDB compares it with stored chunks and retrieves only the most relevant ones. Those chunks are then passed to GPT-4o-mini, which generates an accurate and context-aware answer or a short summary. This whole process is known as Retrieval Augmented Generation (RAG). This combined process of retrieval using semantic search and generation of answer using OpenAI forms the RAG pipeline.
 
 ---
 
